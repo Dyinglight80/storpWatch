@@ -20,15 +20,29 @@ body{
     padding-bottom: 50px;
     border-radius: 10px;
 }
+.containerTimes{
+    background-color: #eed7f1de;
+    position:absolute;
+    top: 0rem; 
+    left: 45rem;
+    width: 15rem;
+    height: 19rem;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    font-family: 'Roboto mono',monospace;
+    color: #121312;
+}
 
 .timerDisplay{
     position: relative;
     width: 92%;
+    height: 8rem;
     background: #eed7f1de;
     left: 4%;
     padding: 40px 0;
-    font-family: ‘Roboto mono’,monospace;
-    color: #0381bb;
+    font-family: 'Roboto mono',monospace;
+    color: #121312;
     font-size: 40px;
     display: flex;
     align-items: center;
@@ -41,8 +55,8 @@ body{
    position: absolute;
    color: rgb(9, 108, 194);
    font-size: medium;
-   margin-top:2rem;
-   left: 3rem;
+   margin-top: -1.5rem;
+   left: 10rem;
 }
 .buttons{
     width: 90%;
